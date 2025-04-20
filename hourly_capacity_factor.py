@@ -3,10 +3,10 @@ import numpy as np
 import sys
 
 df = pd.read_csv('dSTAC_US.csv')
-print(df.info())
-print(type(df['hourly_capacity_factor'][0]))
-print(len(df["hourly_capacity_factor"][0].split(",")))
-sys.exit()
+# print(df.info())
+# print(type(df['hourly_capacity_factor'][0]))
+# print(len(df["hourly_capacity_factor"][0].split(",")))   # 8760 (number of hours in a year)
+# sys.exit()
 # df = df.sample(500)
 
 # Access the 0th index array
